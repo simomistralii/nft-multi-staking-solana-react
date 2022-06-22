@@ -26,7 +26,7 @@ export default function Sidebar({
           </button>
         </div>
         <div className="sidebar-content">
-          <h1>Barnyard</h1>
+          <h1>DuMbGums</h1>
           <p className="reward-title">rewards for claim</p>
           <h2>{rewardValue}<span style={{ marginLeft: 5 }}>$Wheat</span></h2>
           <button className="claim-button" onClick={() => onClaimReward()} disabled={claimLoading}>
